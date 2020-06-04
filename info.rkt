@@ -3,7 +3,8 @@
 (define collection "thread-with-id")
 (define version "1.0")
 
-(define deps '())
-(define build-deps '())
-
+(define deps '("base"))
+(define build-deps '("racket-doc"
+                     "sandbox-lib"
+                     "scribble-lib"))
 (define scribblings '(("scribblings/main.scrbl"))) 
