@@ -7,4 +7,4 @@
 (define build-deps '("racket-doc"
                      "sandbox-lib"
                      "scribble-lib"))
-(define scribblings '(("scribblings/main.scrbl"))) 
+(define scribblings '(("scribblings/thread-with-id.scrbl"))) 
